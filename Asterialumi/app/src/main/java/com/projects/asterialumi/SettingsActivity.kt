@@ -1,7 +1,9 @@
 package com.projects.asterialumi
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
+import android.provider.ContactsContract.Profile
 import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -21,6 +23,13 @@ class SettingsActivity : Activity() {
                 "You clicked the button bro, good job",
                 Toast.LENGTH_LONG
             ).show()
+
+            val intent = Intent(
+                this,
+                ProfileActivity::class.java
+            )
+            startActivity(intent)
         }
+
     }
 }
