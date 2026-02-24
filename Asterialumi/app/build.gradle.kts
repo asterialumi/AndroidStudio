@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.projects.asterialumi"
-    compileSdk = 36
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.projects.asterialumi"
