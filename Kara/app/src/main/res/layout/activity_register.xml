@@ -51,7 +51,7 @@
         android:id="@+id/edittextReenterPassword"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Password"
+        android:hint="Re-enter Password"
         android:inputType="textPassword"
         android:background="#AEB784"
         android:padding="12dp"

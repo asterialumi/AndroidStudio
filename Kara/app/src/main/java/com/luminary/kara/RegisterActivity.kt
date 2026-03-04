@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 class RegisterActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_register)
 
         val submitButton = findViewById<Button>(R.id.buttonSubmit)
 

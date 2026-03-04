@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 class DashboardActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_dashboard)
 
         val profileButton = findViewById<Button>(R.id.buttonViewProfile)
         val logoutButton = findViewById<Button>(R.id.buttonLogout)
