@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F8F3E1">
+
+    <TextView
+        android:id="@+id/textviewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="30sp"
+        android:textColor="#41431B"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textviewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username: Asteria Lumi"
+        android:textSize="14sp"
+        android:textColor="#41431B"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textviewFname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name: John Vincent"
+        android:textSize="14sp"
+        android:textColor="#41431B"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textviewMname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Middle Name: Batad"
+        android:textSize="14sp"
+        android:textColor="#41431B"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textviewLname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name: Balazon"
+        android:textSize="14sp"
+        android:textColor="#41431B"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/textviewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: asterialumi@gmail.com"
+        android:textSize="14sp"
+        android:textColor="#41431B"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/buttonDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Back to Dashboard"
+        android:textColor="#F8F3E1"
+        android:backgroundTint="#41431B"/>
+
+</LinearLayout>
